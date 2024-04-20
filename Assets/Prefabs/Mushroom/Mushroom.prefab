@@ -14,8 +14,6 @@ GameObject:
   - component: {fileID: 435628111691388301}
   - component: {fileID: 4582973621035830509}
   - component: {fileID: 1461708980901136733}
-  - component: {fileID: 38020401058699450}
-  - component: {fileID: 3423795485325697494}
   m_Layer: 0
   m_Name: Mushroom
   m_TagString: Enemy
@@ -236,31 +234,3 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &38020401058699450
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7616747256381814208}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40660b5b9bc9bb541a264714ab2ddd0a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemyMovementSpeed: 2
-  facingLeft: 0
---- !u!114 &3423795485325697494
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7616747256381814208}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 73faab2acae778c488d758a11c3ac27b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentHealth: 2
-  jumpAttackDamage: 1
